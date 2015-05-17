@@ -15,10 +15,10 @@ $(function() {
         populateSelect();
     });
     
-	$('#item').change(function(){
+/*	$('#item').change(function(){
 	
 $('#table').css("display", "block");
-	  });
+	  }); */
 }); 
 
 
@@ -30,9 +30,8 @@ function populateSelect(){
             $('#item').append('<option>'+t+'</option>');
         });
     }
- 
- 
-
 });
+
+ 
     
  
